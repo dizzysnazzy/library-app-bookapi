@@ -1,0 +1,94 @@
+/* Background color for the body */
+body {
+    background-color: #f2f2f2;
+}
+  
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+  
+/* Container styles */
+#search-container,
+#results-container,
+#book-details,
+#user-account {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+  
+/* Search form styles */
+#search-form {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+  
+#search-input { 
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    margin: 0.5em;
+}
+  
+/* Book results styles */
+#results-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+#results-list li {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #f9f9f9;
+}
+  
+/* Book details styles */
+#book-info {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
+/* Buttons styles */
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+  
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Dynamic elements */
+#book-info h2 {
+    color: rgb(0, 0, 255);
+}
+#book-info h3 {
+    color: rgb(74, 171, 236)
+}
+#book-info img {
+    float: left;
+    margin-right:10px;
+    height: 140px;
+    max-height: fit-content;
+}
+#book-info p {
+    text-align: justify;
+}
+#borrowed-books li {
+    margin: 0.5em;
+}
+
+  
+  

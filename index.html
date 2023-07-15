@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Library Management System</h1>
+    </header>
+
+    <main>
+        <div id="search-container">
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Search by title, author, or ISBN">
+                <button type="submit" id="search-btn">Search</button>
+            </form>
+        </div>
+
+        <div id="results-container">
+            <h2>Search Results</h2>
+            <ul id="results-list"></ul>
+        </div>
+        
+        <div id="book-details">
+            <h2>Book</h2>
+            <select name="bookList" id="book-list"></select>
+            <h2>Book Details</h2>
+            <div id="book-info"></div>
+            <button id="borrow-button">Borrow</button>
+            <button id="return-button">Return</button>
+        </div>
+
+        <div id="user-account">
+            <h2>My Account</h2>
+            <ul id="borrowed-books"></ul>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
